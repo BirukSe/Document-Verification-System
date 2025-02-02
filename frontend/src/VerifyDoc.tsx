@@ -15,7 +15,7 @@ const VerifyDocument = () => {
   useEffect(() => {
     const fetchDocument = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/verify/${publicId}`);
+        const response = await fetch(`https://document-verification-system-xo1a.onrender.com/verify/${publicId}`);
         if (!response.ok) {
           throw new Error('Document not found');
         }
