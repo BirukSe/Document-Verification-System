@@ -105,7 +105,7 @@ app.post('/upload', upload.single("image"), async (req, res) => {
                 const qrSize = Math.floor(width * 0.3); 
                 
 
-                const qrData = `http://10.5.200.217:5173/verify/${result.public_id}`; 
+                const qrData = `https://679fbc90f2285f6dfb571244--onestepdocumentverifier.netlify.app//verify/${result.public_id}`; 
                 const qrCodeBuffer = await QRCode.toBuffer(qrData); 
 
     
