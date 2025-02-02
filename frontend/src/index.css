@@ -1,0 +1,17 @@
+@import "tailwindcss";
+.headColor{
+    background-color: #1596bd;
+}
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.mycolor{
+    color: #3e4c74;
+
+}
+.var{
+    background-color: #d8e4d6;
+}
+  
